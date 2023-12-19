@@ -25,21 +25,21 @@ fun llegirInt(pMessage : String, pMin : Int, pMax : Int) : Int{
     }while(!correctType)
     return valor
 }
-fun llegirLong(pMessage : String, pMin : Long, pMax : Long) : Long {
-    var valor : Int = 0
-    val scan : Scanner = Scanner(System.`in`)
-    var correctType : Boolean = false
+fun llegirLong(pMessage: String, pMin: Double, pMax: Double): Long {
+    var valor: Long = 0
+    val scan: Scanner = Scanner(System.`in`)
+    var correctType: Boolean
 
-    do{
+    do {
         println(pMessage)
         correctType = scan.hasNextLong()
 
-        if(!correctType){
+        if (!correctType) {
             println("ERROR")
-        }else{
-            valor = scan.nextLong().toInt()
+        } else {
+            valor = scan.nextLong()
 
-            if(valor < pMin || valor > pMax){
+            if (valor < pMin || valor > pMax) {
                 println("ERROR")
                 correctType = false
             }
@@ -47,11 +47,11 @@ fun llegirLong(pMessage : String, pMin : Long, pMax : Long) : Long {
 
         scan.nextLine()
 
-    }while(!correctType)
-    return valor.toLong()
+    } while (!correctType)
+    return valor
 }
 fun llegirDouble(pMessage : String, pMin : Double, pMax : Double) : Double {
-    var valor : Int = 0
+    var valor : Double = 0.0
     val scan : Scanner = Scanner(System.`in`)
     var correctType : Boolean = false
 
@@ -62,7 +62,7 @@ fun llegirDouble(pMessage : String, pMin : Double, pMax : Double) : Double {
         if(!correctType){
             println("ERROR")
         }else{
-            valor = scan.nextDouble().toInt()
+            valor = scan.nextDouble()
 
             if(valor < pMin || valor > pMax){
                 println("ERROR")
@@ -73,5 +73,5 @@ fun llegirDouble(pMessage : String, pMin : Double, pMax : Double) : Double {
         scan.nextLine()
 
     }while(!correctType)
-    return valor.toDouble()
+    return valor
 }
