@@ -11,7 +11,7 @@ fun demanarVersio(): String {
 }
 fun demanarEstatPneumatics(): Int {
     println("Quants quilòmetres tenen els pneumàtics?")
-    val quilometresPneumatics = llegirInt()
+    val quilometresPneumatics = llegirInt(pMessage = )
     return when {
         quilometresPneumatics <= 5000 -> 0
         quilometresPneumatics <= 10000 -> 200
