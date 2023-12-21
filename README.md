@@ -30,10 +30,10 @@ Este proyecto es una aplicación Kotlin diseñada para calcular el precio actual
 2. Asegúrate antes de nada de tener configuradas las herramientas necesarias para ejecutar proyectos de tipo Kotlin.
 3. Debes ejecutar la aplicación para interactuar con la calculadora de precio.
 
-![Furgoneta](C:\Users\bolet\OneDrive\Imágenes\furgoneta.png.webp)
-![Menu de selección del modelo](C:\Users\bolet\OneDrive\Imágenes\ejecucionMenu.png.png)
-![Precio Base vs Precio Final ](C:\Users\bolet\OneDrive\Imágenes\ejecucionPrecio.png.png)
-![Calculo Precio Base](C:\Users\bolet\OneDrive\Imágenes\codigoPrecioBase.png.png)
-![Calculo Precio Actual](C:\Users\bolet\OneDrive\Imágenes\codigoPrecioActual.png.png)
+[![furgoneta-png.webp](https://i.postimg.cc/C5xW9VcP/furgoneta-png.webp)](https://postimg.cc/mzKXFKfC)
+![Menu de selección del modelo](C:\Users\bolet\IdeaProjects\Exercici5VW\ejecucionMenu.png.png)
+![Precio Base vs Precio Final ](C:\Users\bolet\IdeaProjects\Exercici5VW\ejecucionPrecio.png.png)
+![Calculo Precio Base](C:\Users\bolet\IdeaProjects\Exercici5VW\codigoPrecioBase.png.png)
+![Calculo Precio Actual](C:\Users\bolet\IdeaProjects\Exercici5VW\codigoPrecioActual.png.png)
 
 
