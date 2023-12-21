@@ -1,11 +1,18 @@
-
+/**
+ * Calcula el precio base de la furgoneta según su versión.
+ * @param versio Versión de la furgoneta: "normal" o "camper".
+ * @return Precio base de la furgoneta.
+ */
 fun calcularPreuBase(versio: String): Double {
     return when (versio) {
         "camper" -> 93490.0
         else -> 73490.0
     }
 }
-
+/**
+ * Calcula el precio actual de la furgoneta teniendo en cuenta diferentes factores como la depreciación.
+ * @return Precio actualizado de la furgoneta.
+ */
 fun calcularPreuActual(PneumaticsEstat: Double, preuBase: Double, TéPortabicis: Boolean, EdatVehicle: Int): Double {
     val depreciacioPerKilometre = when {
         EdatVehicle >= 6 && EdatVehicle <= 10 -> 0.0002

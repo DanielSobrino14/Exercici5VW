@@ -1,5 +1,11 @@
 import java.util.*
-
+/**
+ * Función para leer un número entero dentro de un rango especificado.
+ * @param pMessage Mensaje a mostrar al usuario.
+ * @param pMin Valor mínimo permitido.
+ * @param pMax Valor máximo permitido.
+ * @return Número entero válido dentro del rango especificado.
+ */
 fun llegirInt(pMessage : String, pMin : Int, pMax : Int) : Int{
     var valor : Int = 0
     val scan : Scanner = Scanner(System.`in`)
@@ -25,6 +31,14 @@ fun llegirInt(pMessage : String, pMin : Int, pMax : Int) : Int{
     }while(!correctType)
     return valor
 }
+
+/**
+ * Función para leer un número long dentro de un rango especificado.
+ * @param pMessage Mensaje a mostrar al usuario.
+ * @param pMin Valor mínimo permitido.
+ * @param pMax Valor máximo permitido.
+ * @return Número long válido dentro del rango especificado.
+ */
 fun llegirLong(pMessage: String, pMin: Double, pMax: Double): Long {
     var valor: Long = 0
     val scan: Scanner = Scanner(System.`in`)
@@ -50,6 +64,14 @@ fun llegirLong(pMessage: String, pMin: Double, pMax: Double): Long {
     } while (!correctType)
     return valor
 }
+
+/**
+ * Función para leer un número decimal/double dentro de un rango especificado.
+ * @param pMessage Mensaje a mostrar al usuario.
+ * @param pMin Valor mínimo permitido.
+ * @param pMax Valor máximo permitido.
+ * @return Número decimal/double válido dentro del rango especificado.
+ */
 fun llegirDouble(pMessage : String, pMin : Double, pMax : Double) : Double {
     var valor : Double = 0.0
     val scan : Scanner = Scanner(System.`in`)
