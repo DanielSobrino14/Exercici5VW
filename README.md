@@ -1,4 +1,4 @@
-# Calculadora de Preu de Furgoneta Volkswagen
+# Calculadora de Precio de Furgoneta Volkswagen
 
 ## Descripción del Proyecto
 Este proyecto es una aplicación Kotlin diseñada para calcular el precio actual de una furgoneta Volkswagen basado en ciertos criterios como la versión de la furgoneta, el estado de los neumáticos y otros factores relacionados con la depreciación y características adicionales.
