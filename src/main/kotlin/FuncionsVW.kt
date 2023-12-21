@@ -13,8 +13,7 @@ fun calcularPreuActual(PneumaticsEstat: Double, preuBase: Double, TéPortabicis:
         else -> 0.00001
     }
 
-    println("Quants quilòmetres ha recorregut la furgo?")
-    val quilometresRecorreguts = llegirLong("Aquests son els quilometres", 0.0, 100000.0)
+    val quilometresRecorreguts = llegirLong("${colorAzul()}Quants quilòmetres ha recorregut la furgo?", 0.0, 100000.0)
     val depreciacio = preuBase * depreciacioPerKilometre * quilometresRecorreguts
     val preuAmbAjust = preuBase - PneumaticsEstat
 
