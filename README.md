@@ -31,9 +31,8 @@ Este proyecto es una aplicación Kotlin diseñada para calcular el precio actual
 3. Debes ejecutar la aplicación para interactuar con la calculadora de precio.
 
 [![furgoneta-png.webp](https://i.postimg.cc/C5xW9VcP/furgoneta-png.webp)](https://postimg.cc/mzKXFKfC)
-![Menu de selección del modelo](C:\Users\bolet\IdeaProjects\Exercici5VW\ejecucionMenu.png.png)
-![Precio Base vs Precio Final ](C:\Users\bolet\IdeaProjects\Exercici5VW\ejecucionPrecio.png.png)
-![Calculo Precio Base](C:\Users\bolet\IdeaProjects\Exercici5VW\codigoPrecioBase.png.png)
-![Calculo Precio Actual](C:\Users\bolet\IdeaProjects\Exercici5VW\codigoPrecioActual.png.png)
-
+[![ejecucion-Menu-png.png](https://i.postimg.cc/FsjBGzFr/ejecucion-Menu-png.png)](https://postimg.cc/3dx1xKDV)
+[![ejecucion-Precio-png.png](https://i.postimg.cc/y8LnrSMH/ejecucion-Precio-png.png)](https://postimg.cc/yDSFDW6Q)
+[![codigo-Precio-Base-png.png](https://i.postimg.cc/Bb5B58TR/codigo-Precio-Base-png.png)](https://postimg.cc/RJFt4ZbT)
+[![codigo-Precio-Actual-png.png](https://i.postimg.cc/ncH4bhYc/codigo-Precio-Actual-png.png)](https://postimg.cc/hh5zVg5H)
 
