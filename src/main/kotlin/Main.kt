@@ -9,10 +9,21 @@ fun colorReset() = "\u001B[0m"
  * Función principal que inicia la aplicación para calcular el precio de una furgoneta Volkswagen.
  */
 fun main() {
+    imprimirAsciiArt()
     println("${colorVerde()}Benvingut a la calculadora de preu de la teva Furgoneta Volkswagen${colorReset()}")
     val versioFurgo = demanarVersio()
     val PneumaticsEstat = demanarEstatPneumatics()
     mostrarPreus(versioFurgo, PneumaticsEstat)
+}
+
+fun imprimirAsciiArt() {
+    println("${colorAzul()}   _____       _            _           ")
+    println("  / ____|     | |          | |          ")
+    println(" | |  __  __ _| | ___ _ __ | |_ ___     ")
+    println(" | | |_ |/ _` | |/ _ \\ '_ \\| __/ _ \\    ")
+    println(" | |__| | (_| | |  __/ | | | || (_) |   ")
+    println("  \\_____|\\__,_|_|\\___|_| |_|\\__\\___/    ${colorReset()}")
+
 }
 
 /**

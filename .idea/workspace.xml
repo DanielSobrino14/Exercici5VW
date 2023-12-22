@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f50beee-7b15-4eaf-905c-25ff658267c0" name="Changes" comment="otro commit">
+      <change afterPath="$PROJECT_DIR$/codigoPrecioActual.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codigoPrecioBase.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejecucionMenu.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejecucionPrecio.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furgoneta.png.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FuncionsEntrada.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/FuncionsEntrada.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FuncionsVW.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/FuncionsVW.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +41,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/daniel.sobrino.7e7/IdeaProjects/ExerciciVolkswagen/src/main/kotlin",
+    "last_opened_file_path": "C:/Users/bolet/IdeaProjects/Exercici5VW",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bolet\IdeaProjects\Exercici5VW" />
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
@@ -82,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703155411382</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="otro commit">
+      <option name="closed" value="true" />
+      <created>1703156900925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703156900925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
