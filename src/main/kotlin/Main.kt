@@ -23,8 +23,7 @@ fun imprimirAsciiArt() {
     println(" | | |_ |/ _` | |/ _ \\ '_ \\| __/ _ \\    ")
     println(" | |__| | (_| | |  __/ | | | || (_) |   ")
     println("  \\_____|\\__,_|_|\\___|_| |_|\\__\\___/    ${colorReset()}")
-
-}
+    }
 
 /**
  * Función para solicitar al usuario la versión de la furgoneta que tiene.
